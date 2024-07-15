@@ -13,6 +13,8 @@ def sort_rows(pixels, sorting_key, image_width: int, image_height: int):
     This function sorts a list of pixels per row. Sorting is done by reference, hence why this function returns None.
     :param pixels: A list of Pixel objects
     :param sorting_key: The SortingKey by which you want to sort the image (red, green, blue, luminance)
+    :param image_width: The width of the image
+    :param image_height: The height of the image
     """
     for i in range(image_height):
         _quicksort(pixels, sorting_key, i * image_width, ((i + 1) * image_width - 1))
