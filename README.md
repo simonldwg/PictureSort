@@ -26,13 +26,25 @@ To use this script, you have to provide it with a source and destination filenam
 ```shell
 python main.py source_file.jpg destination_file.jpg
 ```
-By default, the scripts sorts each row of pixels by luminance.
+By default, the scripts sorts each row of pixels by luminance. The script has been verified to work with JPEG and PNG.
+For a list of supported file formats, take a look at the [Pillow image library wiki.](https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html)
+Please note: Sorting a high-resolution image can take a long time, especially sorting it continuously.
+#### Examples
+The original image:
+![The original example image](https://github.com/simonldwg/PictureSort/blob/main/images/example-original.jpg?raw=true)
+Each row sorted by luminance:
+![Each row sorted by luminance](https://github.com/simonldwg/PictureSort/blob/main/images/example-rows.jpg?raw=true)
+Each column sorted by luminance:
+![Each column sorted by luminance](https://github.com/simonldwg/PictureSort/blob/main/images/example-columns.jpg?raw=true)
+The whole image sorted by luminance continuously:
+![The whole image sorted by luminance continuously](https://github.com/simonldwg/PictureSort/blob/main/images/example-continuous.jpg?raw=true)
+Each row sorted by the red value:
+![Each row sorted by the red value](https://github.com/simonldwg/PictureSort/blob/main/images/example-rows-red.jpg?raw=true)
 #### Options
 | Argument | Values | Default | Explanation |
 | -------- | ------ | ------- | ----------- |
 | `--sort` | `rows`, `columns`, `continuously` | `rows` | Specifies how the image will be sorted. You can sort each row, each column or sort the image continuously. |
 | `--sort-by` | `red`, `green`, `blue`, `luminance` | `luminance` | Specifies which value will be the sorting key. |
-
 
 
 
