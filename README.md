@@ -30,16 +30,16 @@ By default, the scripts sorts each row of pixels by luminance. The script has be
 For a list of supported file formats, take a look at the [Pillow image library wiki.](https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html)
 Please note: Sorting a high-resolution image can take a long time, especially sorting it continuously.
 #### Examples
-The original image:
-![The original example image](https://github.com/simonldwg/PictureSort/blob/main/images/example-original.jpg?raw=true)
-Each row sorted by luminance:
-![Each row sorted by luminance](https://github.com/simonldwg/PictureSort/blob/main/images/example-rows.jpg?raw=true)
-Each column sorted by luminance:
-![Each column sorted by luminance](https://github.com/simonldwg/PictureSort/blob/main/images/example-columns.jpg?raw=true)
-The whole image sorted by luminance continuously:
-![The whole image sorted by luminance continuously](https://github.com/simonldwg/PictureSort/blob/main/images/example-continuous.jpg?raw=true)
-Each row sorted by the red value:
-![Each row sorted by the red value](https://github.com/simonldwg/PictureSort/blob/main/images/example-rows-red.jpg?raw=true)
+The original image:<br>
+![The original example image](https://github.com/simonldwg/PictureSort/blob/main/images/example-original.jpg?raw=true)<br>
+Each row sorted by luminance:<br>
+![Each row sorted by luminance](https://github.com/simonldwg/PictureSort/blob/main/images/example-rows.jpg?raw=true)<br>
+Each column sorted by luminance:<br>
+![Each column sorted by luminance](https://github.com/simonldwg/PictureSort/blob/main/images/example-columns.jpg?raw=true)<br>
+The whole image sorted by luminance continuously:<br>
+![The whole image sorted by luminance continuously](https://github.com/simonldwg/PictureSort/blob/main/images/example-continuous.jpg?raw=true)<br>
+Each row sorted by the red value:<br>
+![Each row sorted by the red value](https://github.com/simonldwg/PictureSort/blob/main/images/example-rows-red.jpg?raw=true)<br>
 #### Options
 | Argument | Values | Default | Explanation |
 | -------- | ------ | ------- | ----------- |
